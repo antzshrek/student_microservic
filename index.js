@@ -26,7 +26,7 @@ app.use(express.static('public'));
 
 
 var port = process.env.PORT || 3000;
-var ip = process.env.IP || '127.0.0.1';
+var ip = process.env.IP || '0.0.0.0';
 app.listen(port,ip);
 
 app.get('/', function(req,res){
