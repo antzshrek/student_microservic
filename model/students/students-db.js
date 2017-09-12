@@ -6,7 +6,7 @@ let Schema = db.Schema;
 let studentSchema = new Schema(
     {
         //values for the schema
-        school_id: {type: String, default:""},
+        school_id: {type: String, default:""}, //if no data is entered, you should have an ID automatically generated 
         class_id: {type:String},
         arm_id: {type:String},
         session: {type:String},
@@ -33,8 +33,9 @@ let studentSchema = new Schema(
         g_phone_number: {type:String},
         permanent_address: {type:String},
         current_address: {type:String},
-        createdAt: {type: Date, default: Date.now}
+        createdAt: {type: Date, default: Date.now} //Date.now is to take the exact date at which the details are entered
     }
 );
 
+//This line below exports the whole module to db.model
 module.exports.studentsModel = db.model('students', studentSchema);
