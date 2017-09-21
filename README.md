@@ -4,7 +4,7 @@ ReadMe
 
 ### Project Title
 
-# student_microservic
+#student_microservic
 
 ### Overview
 
@@ -49,7 +49,7 @@ NodeJs - The JavaScript framework used
 ### Authors
 
 -   Sarah Ayanwale (sarahrike3768@gmail.com) -: Controller & Index file
--   Reuben Antz (cheerantz@gmail.com) -: Model & Lib
+-   Reuben Antz Ishaku (cheerantz@gmail.com) -: Model & Lib
 
 See also the list of contributors who participated in this project.
 
